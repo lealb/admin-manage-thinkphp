@@ -1,0 +1,804 @@
+[ 2016-01-08T21:12:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002705s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003241s ]
+
+[ 2016-01-08T21:13:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001053s ]
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002637s ]
+
+[ 2016-01-08T21:14:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003581s ]
+
+[ 2016-01-08T21:14:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/runlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+
+[ 2016-01-08T21:14:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002414s ]
+NOTIC: [2] Division by zero E:\php\www\adminmanage\Application\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000495s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000959s ]
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 444 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.282020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.282373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2016-01-08T21:14:46+08:00 ] 127.0.0.1 /index.php/Admin/Help/soft/se/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Undefined variable: page E:\php\www\adminmanage\Application\Runtime\Cache\Admin\a59c76333794018f8611840ef92ec294.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002160s ]
+
+[ 2016-01-08T21:14:54+08:00 ] 127.0.0.1 /index.php/Admin/Sys/sys/se/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000599s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002481s ]
+
+[ 2016-01-08T21:15:34+08:00 ] 127.0.0.1 /index.php/Admin/We/we_menu/se/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000521s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000790s ]
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002424s ]
+
+[ 2016-01-08T21:15:44+08:00 ] 127.0.0.1 /index.php/Admin/We/we_menu_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001393s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+
+[ 2016-01-08T21:15:47+08:00 ] 127.0.0.1 /index.php/Admin/We/we_menu_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001634s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+
+[ 2016-01-08T21:27:03+08:00 ] 127.0.0.1 /index.php/Admin/We/we_menu/se/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000515s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+NOTIC: [8] Use of undefined constant we_menu_open - assumed 'we_menu_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\cd75f1050e8623d08f2bae299dc140ae.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002360s ]
+
+[ 2016-01-08T21:27:07+08:00 ] 127.0.0.1 /Admin/Sys/sys/se/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000550s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002706s ]
+
+[ 2016-01-08T21:28:21+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [2] Division by zero E:\php\www\adminmanage\Application\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 444 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002378s ]
+
+[ 2016-01-08T21:50:00+08:00 ] 127.0.0.1 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+NOTIC: [2] Division by zero E:\php\www\adminmanage\Application\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000566s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001074s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 444 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002179s ]
+
+[ 2016-01-08T21:51:46+08:00 ] 127.0.0.1 /Admin/Sys/sys/se/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002339s ]
+
+[ 2016-01-08T21:51:51+08:00 ] 127.0.0.1 /Admin/Sys/wesys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000737s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002288s ]
+
+[ 2016-01-08T21:52:08+08:00 ] 127.0.0.1 /Admin/Sys/emailsys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Use of undefined constant email_open - assumed 'email_open' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\eed325cd0e8cf5e9ee4e50b85c5cf94e.php 第 404 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002710s ]
+
+[ 2016-01-08T21:52:16+08:00 ] 127.0.0.1 /Admin/Sys/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001070s ]
+
+[ 2016-01-08T21:52:20+08:00 ] 127.0.0.1 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000947s ]
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' E:\php\www\adminmanage\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002141s ]
+
+[ 2016-01-08T21:52:24+08:00 ] 127.0.0.1 /Admin/Login/runlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004877s ]
+
+[ 2016-01-08T21:52:24+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001292s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002638s ]
+NOTIC: [2] Division by zero E:\php\www\adminmanage\Application\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000587s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001083s ]
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 444 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002423s ]
+
+[ 2016-01-08T21:57:02+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001666s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+NOTIC: [2] Division by zero E:\php\www\adminmanage\Application\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000889s ]
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 444 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001642s ]
+
+[ 2016-01-08T22:00:27+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+NOTIC: [2] Division by zero E:\php\www\adminmanage\Application\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 444 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001925s ]
+
+[ 2016-01-08T22:11:53+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002159s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+NOTIC: [2] Division by zero E:\php\www\adminmanage\Application\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003151s ]
+
+[ 2016-01-08T22:14:47+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+NOTIC: [2] Division by zero E:\php\www\adminmanage\Application\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 420 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002541s ]
+
+[ 2016-01-08T22:15:07+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+NOTIC: [2] Division by zero E:\php\www\adminmanage\Application\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 420 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002058s ]
+
+[ 2016-01-08T22:27:12+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001604s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+NOTIC: [2] Division by zero E:\php\www\adminmanage\Application\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000505s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001028s ]
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 285 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 285 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 285 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 285 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 285 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 285 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 285 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 285 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 285 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 285 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 285 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 285 行.
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 434 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002391s ]
+
+[ 2016-01-08T22:59:42+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002391s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+NOTIC: [2] Division by zero E:\php\www\adminmanage\Application\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 549 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2016-01-08T23:00:32+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003093s ]
+NOTIC: [2] Division by zero E:\php\www\adminmanage\Application\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000534s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000967s ]
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 400 行.
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 549 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002413s ]
+
+[ 2016-01-08T23:13:28+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\php\www\adminmanage\Application\Admin\Conf\config.php 第 29 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+NOTIC: [2] Division by zero E:\php\www\adminmanage\Application\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 259 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 259 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 259 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 259 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 259 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 259 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 259 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 259 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 259 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 259 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 259 行.
+NOTIC: [8] Undefined index: se E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 259 行.
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\www\adminmanage\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.479183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.479537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002108s ]
+

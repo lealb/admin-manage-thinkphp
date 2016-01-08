@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<title>中石油 龙岩文明办 “好司机”微信助力</title>
+<script src="__PUBLIC__/assets/js/jquery.min.js"></script>
+<script src="__PUBLIC__/assets/js/jquery.form.js"></script>
+<script src="__PUBLIC__/layer/layer.js"></script>
+<link rel="stylesheet" href="__PUBLIC__/assets/css/bootstrap.css" />
+<script src="__PUBLIC__/assets/js/bootstrap.js"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+<style>
+* { margin:0; padding:0; font-size:14px;}
+ul li { list-style-type:none}
+a { text-decoration:none}
+
+
+.banner { width:100%; height:auto; overflow:hidden}
+.banner img { width:100%}
+
+p { width:90%; display:block; margin:15px auto; background:#e5e5e5; border-radius:5px;}
+p b { display:block; width:100%; text-align:center; line-height:30px; color:#868686; font-size:12px;}
+p span { display:block; width:100%; text-align:center; line-height:30px; color:#a3a3a3; font-size:12px;}
+
+.info { width:90%; margin:15px auto; border-radius:5px; background:#fcd755; overflow:hidden}
+.info span { float:left; width:50%; line-height:40px; text-align:center; color:#333}
+.info span.color { background:#c10001; color:#fff}
+
+
+.list { width:94%; margin:120px auto 20px; max-width:420px; min-width:320px; height:auto; position:relative}
+.list img { position:absolute; left:0; top:-100px; width:100%; max-width:410px }
+.list ul { width:90%; margin:0 auto; padding-top:50px; height:auto; background:#f1f1f1}
+.list ul li { height:35px;}
+.list ul li span { float:left; line-height:35px; text-align:center}
+.list ul li span.l1, .list ul li span.l3 { width:30%}
+.list ul li span.l2 { width:40%}
+
+.btn { display:block; border-radius:5px; width:94%; margin:10px auto; line-height:40px; color:#fff; text-align:center; background:#c10001}
+.hei{ height:30px;}
+</style>
+<div class="banner"><img src="__PUBLIC__/act_bus_img/banner.png"/></div>
+
+<p>
+<b>创建全国文明城市  建设美丽和谐龙岩</b>
+<span>本此活动由龙岩文明办、中石油共同举办</span>
+</p>
+
+<div class="info">
+<span class="color">当前排名</span><span class="color">当前助力值</span>
+<span>9</span><span>18</span>
+</div>
+
+<div class="list">
+<img src="__PUBLIC__/act_bus_img/list.png" />
+
+<ul>
+<li><span class="l1">排名</span><span class="l2">车牌号</span><span class="l3">助力值</span></li>
+<hr/>
+<li><span class="l1">1</span><span class="l2">闽F1236</span><span class="l3">59</span></li>
+
+
+</ul>
+
+<a class="btn">找朋友助力</a>
+
+<a class="btn" id="oopp" data-toggle="modal" data-target="#myModal">我要参加助力</a>
+</div>
+
+
+
+<!-- 显示模态框（Modal）-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<form class="form-horizontal" name="act_bus_runadd" id="act_bus_runadd" method="post" action="__URL__/act_bus_runadd">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" 
+               aria-hidden="true">×
+            </button>
+            <h4 class="modal-title" id="myModalLabel">
+               报名参加助力好司机
+            </h4>
+         </div>
+         <div class="modal-body">
+            
+						<div class="row">
+							<div class="col-xs-12">
+																		
+									<div class="form-group">
+										<label class="col-xs-4 col-sm-2 control-label no-padding-right hei" for="form-field-1"> 手机号码：  </label>
+										<div class="col-sm-10">
+										<if condition="$check.act_bus_oopp eq 1 ">
+											<input type="text" name="act_bus_tel" id="act_bus_tel" placeholder="{$check.act_bus_tel}" class="col-xs-7 col-sm-5 hei" />
+											<else />
+										<input type="text" name="act_bus_tel" id="act_bus_tel" placeholder="输入手机号码" class="col-xs-7 col-sm-5 hei" />	
+										</if>
+										</div>
+									</div>
+                                    <div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-xs-4 col-sm-2 control-label no-padding-right hei" for="form-field-1"> 车  牌  号：  </label>
+										<div class="col-sm-10">
+										<if condition="$check.act_bus_oopp eq 1 ">
+											<input type="text" name="act_bus_cph" id="act_bus_cph"  placeholder="{$check.act_bus_cph}" class="col-xs-7 col-sm-2 hei" />
+											<else />
+											<input type="text" name="act_bus_cph" id="act_bus_cph"  placeholder="例：闽F：5070K" class="col-xs-7 col-sm-2 hei" />
+											</if>
+											
+										</div>
+									</div>
+                                    <div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-xs-4 col-sm-2 control-label no-padding-right hei" for="form-field-1"> 车  架  号：  </label>
+										<div class="col-sm-10">
+										<if condition="$check.act_bus_oopp eq 1 ">
+											<input type="text" name="act_bus_cjh" id="act_bus_cjh"  placeholder="{$check.act_bus_cjh}"  class="col-xs-7 col-sm-2 hei" />
+											<else />
+											<input type="text" name="act_bus_cjh" id="act_bus_cjh"  placeholder="例：闽F：5070K"  class="col-xs-7 col-sm-2 hei" />
+						</if>					
+										</div>
+									</div>
+                                    <div class="space-4"></div>
+								</div>
+							</div>
+			
+         </div>
+         <div class="modal-footer" style="text-align:center;">
+		 	<button type="submit" class="col-xs-5 btn btn-primary" style="width:45%;">
+            	提交保存
+            </button>
+            <button type="button" class="col-xs-5 btn btn-default" data-dismiss="modal" style="width:45%; float:right;">
+				关闭
+            </button>
+         </div>
+      </div><!-- /.modal-content -->
+   </div><!-- /.modal-dialog -->
+   </form>
+</div><!-- /.modal -->
+
+
+<script>
+$(function(){
+	$('#act_bus_runadd').ajaxForm({
+		beforeSubmit: checkForm, // 此方法主要是提交前执行的方法，根据需要设置
+		success: complete, // 这是提交后的方法
+		dataType: 'json'
+	});
+	
+	function checkForm(){
+		if( '' == $.trim($('#act_bus_tel').val())){
+			layer.alert('手机号码不能为空', {icon: 6}, function(index){
+ 			layer.close(index);
+			$('#act_bus_tel').focus(); 
+			});
+			return false;
+		}
+		
+		if( '' == $.trim($('#act_bus_cph').val())){
+			layer.alert('车牌号不能为空', {icon: 6}, function(index){
+ 			layer.close(index);
+			$('#act_bus_cph').focus(); 
+			});
+			return false;
+		}
+		
+		if( '' == $.trim($('#act_bus_cjh').val())){
+			layer.alert('车架号不能为空', {icon: 6}, function(index){
+ 			layer.close(index);
+			$('#act_bus_cjh').focus(); 
+			});
+			return false;
+		}
+	}
+	function complete(data){
+		if(data.status==1){
+			layer.alert(data.info, {icon: 6}, function(index){
+ 			layer.close(index);
+			});
+			window.location.href=data.url;
+			return false;
+		}else{
+			layer.alert(data.info, {icon: 6}, function(index){
+ 			layer.close(index);
+			});
+			window.location.href=data.url;
+			return false;
+		}
+	}
+});
+</script>
+
+</body>
+</html>

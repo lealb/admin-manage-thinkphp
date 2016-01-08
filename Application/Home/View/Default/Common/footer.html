@@ -1,0 +1,145 @@
+
+<!--footer-->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="span3">
+                <h3>业务范围</h3>
+               <ul class="menu-widget">
+                   <li><a>About</a></li>
+                   <li><a>Elements</a></li>
+                   <li><a>Blog</a></li>
+                   <li><a>Portfolio</a></li>
+                   <li><a>Contacts</a></li>
+               </ul>
+
+            </div>
+            <div class="span3">
+                <h3>友情链接</h3>
+             <!--   <ul class="flickr clearfix"></ul>  -->
+                <ul class="menu-widget">
+                    <li><a href="http://www.baidu.com" target="_blank" class="follow-widget">百度</a></li>
+                </ul>
+            </div>
+            <div class="span3">
+                <h3>在线留言</h3>
+
+                <form id="contact" class="form-horizontal" method="post" action="__URL__/plug_sug_runadd"/>
+                    <div class="control-group">
+                        <label class="control-label" for="inputName">标题</label>
+
+                        <div class="controls">
+                            <input type="text" id="plug_sug_title" placeholder="标题" name="plug_sug_title" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="inputEmail">邮箱</label>
+
+                        <div class="controls">
+                            <input type="text" id="plug_sug_email" placeholder="邮箱" name="plug_sug_email" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="inputMessage"></label>
+
+                        <div class="controls">
+                            <textarea rows="3" id="plug_sug_content" name="plug_sug_content"></textarea>
+                        </div>
+                    </div>
+             
+                   <button class="btn btn-info" type="submit">
+						<i class="ace-icon fa fa-check bigger-110"></i>
+							 提交留言
+					</button>
+                    
+                </form>
+            </div>
+            <div class="span3">
+                <h3>联系方式</h3>
+                <address>
+                    Companyname inc.<br />
+                    London, Baker Street, 90210<br />
+                    <i class="myicon-phone"></i>(123) 456-7890<br />
+                    <i class="myicon-mail"></i>info@dxthemes.com
+                </address>
+                Ut eu nulla eget massa blandit eleifend vel sedis lacus. Sed at viverra nulla. Fusce vel adipisci odio.
+                Phasellus commodo, mauris eget pharetra scelerisque, est justo lacinia tortor.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--footer menu-->
+<section id="footer-menu">
+    <div class="container">
+        <div class="row">
+            <p class="span6 pull-left">Copyright &copy; 2016.Company name All rights reserved.<br>
+版权所有：厦门市净悦庆典有限公司&nbsp;&nbsp;备案号：闽ICP备15026889号-1&nbsp;&nbsp;制作维护：龙岩顺网</p>
+            <p class="offset6 span2 pull-right"></span></p>
+
+        </div>
+    </div>
+</section>
+
+
+	<script type="text/javascript" src="__PUBLIC__/assets/js/jquery.form.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/layer/layer.js"></script>
+<script>
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "slide"
+        });
+    });
+</script>
+<script>
+
+$(function(){
+	$('#contact').ajaxForm({
+		beforeSubmit: checkForm,
+		success: complete,
+		dataType: 'json'
+	});
+	
+	function checkForm(){
+		if( '' == $("#plug_sug_title").val()){
+		    layer.alert('留言标题不能为空', {icon: 6}, function(index){
+ 			layer.close(index);
+			$('#plug_sug_title').focus(); 
+			});
+			return false;
+		}
+	
+		if( '' == $.trim($('#plug_sug_email').val())){
+			layer.alert('邮箱不能为空', {icon: 6}, function(index){
+ 			layer.close(index);
+			$('#plug_sug_email').focus(); 
+			});
+			return false;
+		}
+
+		if( '' == $.trim($('#plug_sug_content').val())){
+			layer.alert('留言内容不能为空', {icon: 6}, function(index){
+ 			layer.close(index);
+			$('#plug_sug_content').focus(); 
+			});
+			return false;
+		}
+}	
+
+	function complete(data){
+		if(data.status==1){
+			layer.alert(data.info, {icon: 6}, function(index){
+ 			layer.close(index);
+			window.location.href=data.url;
+			});
+		}else{
+			layer.alert(data.info, {icon: 6}, function(index){
+ 			layer.close(index);
+			window.location.href=data.url;
+			});
+			return false;	
+		}
+	}
+ 
+});
+</script>

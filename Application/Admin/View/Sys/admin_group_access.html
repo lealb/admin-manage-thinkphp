@@ -1,0 +1,146 @@
+	<include file='Common:header' />
+
+		<!-- /section:basics/navbar.layout -->
+		<div class="main-container" id="main-container">
+
+			<!-- #section:basics/sidebar -->
+
+	<include file='Common:left' />
+
+
+			<!-- /section:basics/sidebar -->
+			<div class="main-content">
+				<div class="main-content-inner">
+					<div class="page-content">
+
+                        
+                        
+                        <!--主题-->
+						<div class="page-header">
+							<h1>
+								您当前操作
+								<small>
+									<i class="ace-icon fa fa-angle-double-right"></i>
+									配置权限
+								</small>
+							</h1>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<form class="form-horizontal" name="admin_group_add" id="admin_group_add" method="post" action="__URL__/admin_group_runaccess">
+								<input name="id" id="id" type="hidden" value="{$admin_group.id}" />
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 用户组名：  </label>
+										<div class="col-sm-10">
+											<input type="text" name="title" id="title" value="{$admin_group.title}" class="col-xs-10 col-sm-4" />
+										</div>
+									</div>
+                                    <div class="space-4"></div>
+
+
+<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+  <tr>
+    <td height="30" style="border-bottom:#CCCCCC solid 1px; line-height:25px;">配置规则:<br />
+1、由于页面原因，权限分配为三级，同时控制左侧导航以及用户权限<br />
+2、部分不需要分配的权限需要在AUTH的控制器里手动添加<br />
+3、如果有选择第三级权限，那么一级和二级权限也必须勾选</td>
+  </tr>
+  <tr>
+    <td height="30" style="border-bottom:#CCCCCC solid 1px; line-height:25px; background-color:#F4F8FB">
+<label class="pos-rel">
+<input type="checkbox" class="ace ace-checkbox-2"  id='chkAll' onclick='CheckAll(this.form)' value="全选"/>
+<span class="lbl"> 权限全选</span>
+</label>
+	</td>
+  </tr>
+  <foreach name="datab" item="vo">
+  <tr>
+    <td height="50" style="border-bottom:#CCCCCC solid 1px;">
+	<label>
+	<input <if condition="strstr($admin_group['rules'],$vo['id']) eq true">checked</if> name="new_rules[]" class="ace ace-checkbox-2" type="checkbox"  value="{$vo.id}" /><span class="lbl"> <strong>{$vo.title}</strong></span>	</label></td>
+  </tr>
+  <foreach name="vo['sub']" item="sub">
+  <tr>
+    <td height="40" style="padding-left:20px;border-bottom:#E7EBF8 dashed 1px; color:#333333">
+	<label>
+	<input <if condition="strpos($admin_group['rules'],','.$sub['id'].',') GT -1 ">checked</if> name="new_rules[]" id="{$sub.id}" class="ace ace-checkbox-2" type="checkbox"  value="{$sub.id}" /><span class="lbl"> {$sub.title}</span></label></td>
+  </tr>
+  <tr>
+    <td height="30" style="padding-left:40px;border-bottom:#E7EBF8 dashed 1px; color:#666666">
+	<foreach name="sub['sub']" item="subb">
+	<label class="thopen">
+    <input <if condition=" strpos($admin_group['rules'],','.$subb['id'].',') GT -1 ">checked</if> name="new_rules[]" class="ace ace-checkbox-2" type="checkbox"  id="{$subb.id}" value="{$subb.id}" />
+    <span class="lbl" style="margin-right:20px;"> {$subb.title}</span>	</label>
+	</foreach>	</td>
+  </tr>
+  </foreach>
+</foreach>
+</table>
+
+
+									
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<button class="btn btn-info" type="submit">
+												<i class="ace-icon fa fa-check bigger-110"></i>
+												保存
+											</button>
+
+											&nbsp; &nbsp; &nbsp;
+											<button class="btn" type="reset">
+												<i class="ace-icon fa fa-undo bigger-110"></i>
+												重置
+											</button>
+										</div>
+									</div>
+								</form>
+                        	</div>
+                        </div>
+									<div class="hr hr-24"></div>
+
+<include file='Common:header_nav' />
+
+					</div><!-- /.page-content -->
+				</div>
+			</div><!-- /.main-content -->
+
+	<include file='Common:footer' />
+
+		</div><!-- /.main-container -->
+
+    		<!--下拉样式以及JS-->
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/chosen.css" />
+		<script src="__PUBLIC__/assets/js/chosen.jquery.js"></script>
+		<script type="text/javascript">
+			jQuery(function($) {
+				if(!ace.vars['touch']) {
+					$('.chosen-select').chosen({allow_single_deselect:true}); 
+					$(window)
+					.off('resize.chosen')
+					.on('resize.chosen', function() {
+						$('.chosen-select').each(function() {
+							 var $this = $(this);
+							 $this.next().css({'width': $this.parent().width()});
+						})
+					}).trigger('resize.chosen');
+			
+				}
+			});
+			
+function unselectall(){
+if(document.myform.chkAll.checked){
+document.myform.chkAll.checked = document.myform.chkAll.checked&0;
+}
+}
+function CheckAll(form){
+for (var i=0;i<form.elements.length;i++){
+var e = form.elements[i];
+if (e.Name != 'chkAll'&&e.disabled==false)
+e.checked = form.chkAll.checked;
+}
+}
+
+		</script>
+	</body>
+</html>

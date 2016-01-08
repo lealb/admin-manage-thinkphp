@@ -1,0 +1,168 @@
+	<include file='Common:header' />
+
+		<!-- /section:basics/navbar.layout -->
+		<div class="main-container" id="main-container">
+
+			<!-- #section:basics/sidebar -->
+
+	<include file='Common:left' />
+
+
+			<!-- /section:basics/sidebar -->
+			<div class="main-content">
+				<div class="main-content-inner">
+					<div class="page-content">
+
+                        
+                        
+                        <!--主题-->
+						<div class="page-header">
+							<h1>
+								您当前操作
+								<small>
+									<i class="ace-icon fa fa-angle-double-right"></i>
+									站点设置
+								</small>
+							</h1>
+						</div>
+
+<script>
+
+$(function(){
+	$('textarea.limited').maxlength({
+		'feedback' : '.charsLeft', 
+	});
+	  
+	$('textarea.limitedone').maxlength({
+		'feedback' : '.charsLeftone', 
+	});
+	
+	$('#sys').ajaxForm({
+		beforeSubmit: checkForm, // 此方法主要是提交前执行的方法，根据需要设置
+		success: complete, // 这是提交后的方法
+		dataType: 'json'
+	});
+	
+	function checkForm(){
+		if( '' == $.trim($('#sys_name').val())){
+			$('#resone').attr("class", "middle highmsg");//ID为resone 重新class赋值
+			$('#resone').html('网站名称不能为空').show();//id为resone 赋值html值
+			$('#sys_name').focus(); 
+			return false;
+		}
+		
+		if( '' == $.trim($('#sys_url').val())){
+			$('#restwo').attr("class", "middle highmsg");//ID为resone 重新class赋值
+			$('#resone').html('').show();//id为resone 赋值html值
+			$('#restwo').html('网址不能为空').show();//id为resone 赋值html值
+			$('#sys_url').focus(); 
+			return false;
+		}
+
+ }
+	function complete(data){
+		if(data.status==1){
+			layer.alert(data.info, {icon: 6}, function(index){
+ 			layer.close(index);
+			window.location.href="{:U('Sys/sys')}";
+			});
+		}else{
+			alert(data.info);
+			return false;	
+		}
+	}
+ 
+});
+</script>
+						<div class="row">
+							<div class="col-xs-12">
+								<form class="form-horizontal" name="sys" id="sys" method="post" action="{:U('runsys')}">
+                                <input type="hidden" name="sys_id" value="{$sys.sys_id}" />
+                                	<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 站点名称 </label>
+										<div class="col-sm-9">
+											<input type="text" name="sys_name" id="sys_name" value="{$sys.sys_name}" class="col-xs-10 col-sm-5" />
+                                            <span class="help-inline col-xs-12 col-sm-7">
+												<span class="middle" id="resone"></span>
+											</span>
+										</div>
+									</div>
+                                    <div class="space-4"></div>
+                                    
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 站点网址 </label>
+										<div class="col-sm-9">
+											<input type="text" name="sys_url" id="sys_url" value="{$sys.sys_url}"  class="col-xs-10 col-sm-5" />
+                                            <span class="help-inline col-xs-12 col-sm-7">
+												<span class="middle" id="restwo"></span>
+											</span>
+										</div>
+									</div>
+                                    <div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 首页SEO标题 </label>
+										<div class="col-sm-9">
+											<input type="text" name="sys_title" id="sys_title" value="{$sys.sys_title}"  class="col-xs-10 col-sm-5" />
+                                            <span class="help-inline col-xs-12 col-sm-7">
+												<span class="middle" id="resthr"></span>
+											</span>
+										</div>
+									</div>
+                                    <div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 首页SEO关键字 </label>
+										<div class="col-sm-9">
+                                            <textarea  name="sys_key" cols="20" class="col-xs-10 col-sm-7 limited"  id="form-field-9"  maxlength="100">{$sys.sys_key}</textarea>
+                                            <input type="hidden" name="maxlength" value="100" />
+                                            <span class="help-inline col-xs-5 col-sm-5">
+												还可以输入 <span class="middle charsLeft"></span> 个字符,以英文 , 号隔开
+											</span>
+									  </div>
+									</div>
+                                    <div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 首页SEO描述 </label>
+										<div class="col-sm-9">
+											 <textarea  name="sys_des" cols="20" class="col-xs-10 col-sm-7 limitedone"   id="form-field-10"  maxlength="200">{$sys.sys_des}</textarea>
+                                            <input type="hidden" name="maxlengthone" value="200" />
+                                            <span class="help-inline col-xs-5 col-sm-5">
+												还可以输入 <span class="middle charsLeftone"></span> 个字符
+											</span>
+										</div>
+									</div>
+                                    <div class="space-4"></div>
+
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<button class="btn btn-info" type="submit">
+												<i class="ace-icon fa fa-check bigger-110"></i>
+												保存
+											</button>
+
+											&nbsp; &nbsp; &nbsp;
+											<button class="btn" type="reset">
+												<i class="ace-icon fa fa-undo bigger-110"></i>
+												重置
+											</button>
+										</div>
+									</div>
+								</form>
+                        	</div>
+                        </div>
+									<div class="hr hr-24"></div>
+
+<include file='Common:header_nav' />
+
+					</div><!-- /.page-content -->
+				</div>
+			</div><!-- /.main-content -->
+
+
+<include file='Common:footer' />
+
+
+	</body>
+</html>
