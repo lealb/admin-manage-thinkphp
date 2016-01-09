@@ -1,10 +1,6 @@
 <?php
 
 
-	function p ($array){
-		dump($array,1,'<pre>',0);	
-	}
-
 	function get_avatar_name(){
 		return 'temp';
 	}
@@ -37,7 +33,6 @@
     	return $text;
     }
     
-/**************************数据备份操作*****************************/
 
     /**
     * 格式化字节大小
